@@ -12,9 +12,10 @@ const $emailInput = $('#mail');
 const $cardNumberInput = $('#cc-num');
 const $zipInput = $('#zip');
 const $cvvInput = $('#cvv');
+
+//Create and set the total fee to zero
 const $total = $('<h4></h4>');
 $('.activities').append($total);
-
 let totalFee = 0.00;
 
 function addToolTip($input,message){
